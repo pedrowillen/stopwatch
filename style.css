@@ -1,0 +1,38 @@
+body {
+    background: black;;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#timer {
+    color: white;
+}
+
+.stopwatch {
+    text-align: center;
+    margin-top: 15em;
+}
+
+button {
+    height: 2.25em;
+    width: 5.5em;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    margin: 0 0.5em;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.button-start {
+    background: green;
+}
+
+.button-pause {
+    background: #808080;
+}
+
+.button-stop {
+    background: red;
+}
